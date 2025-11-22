@@ -9,6 +9,8 @@
 # production
 /build
 
+# Environment files (extra safety)
+*.env
 .env
 
 # misc
