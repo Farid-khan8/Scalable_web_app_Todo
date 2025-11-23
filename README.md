@@ -1,21 +1,21 @@
-Project Description
+**Project Description**
 
 This is a scalable web application designed for user authentication and task management. It provides a secure, responsive interface for users to register, log in, and manage personal tasks through a dashboard. The app emphasizes modern web development practices, including client-server architecture, API-driven interactions, and scalable code structure. Built for ease of deployment, it supports CRUD operations on tasks, with potential for expansion to other entities like notes or projects. The project demonstrates full-stack development skills, from frontend UI/UX to backend security and database integration.
 
-Feature List
-  -Authentication System:
-  --User registration (signup) with email validation and password requirements.
-  --Secure login with JWT-based token authentication.
-  --Logout functionality with token clearance and route protection.
-  --Protected routes: Dashboard access requires login; unauthorized users are redirected.
+Feature List  
+  -Authentication System:  
+  --User registration (signup) with email validation and password requirements.  
+  --Secure login with JWT-based token authentication.  
+  --Logout functionality with token clearance and route protection.  
+  --Protected routes: Dashboard access requires login; unauthorized users are redirected.  
     
-  -Dashboard:
-  --User profile display (fetched from backend).
-  --Task management: Add, view, update (e.g., mark as complete), and delete tasks.
-  --Search and filter: Real-time search by task title.
-  --Responsive UI: Mobile-friendly layout with cards, grids, and buttons.
+  -Dashboard:  
+  --User profile display (fetched from backend).  
+  --Task management: Add, view, update (e.g., mark as complete), and delete tasks.  
+  --Search and filter: Real-time search by task title.  
+  --Responsive UI: Mobile-friendly layout with cards, grids, and buttons.  
     
-  -Security & Scalability:
+  -Security & Scalability:  
   --Password hashing (bcrypt) for secure storage.
   --JWT middleware for API protection.
   --Client-side and server-side form validation.
